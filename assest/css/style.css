@@ -1,0 +1,102 @@
+:root {
+  --blue: #145E8B;
+  --black: #000000;
+  --white: #ffffff;
+  --canvas: #0048ff;
+}
+
+/* Navbar */
+.nav_bg {
+  background: var(--blue) !important;
+}
+
+/* First Section */
+.first_section {
+  background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg') no-repeat fixed center/cover !important;
+  height: 100vh;
+  place-items: center;
+}
+
+.btn1 {
+  border: none !important;
+  border-radius: unset !important;
+  padding: 10px 20px;
+}
+
+.btn1:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.btn2 {
+  border-radius: unset !important;
+  padding: 10px 20px;
+}
+
+.canvas {
+  top: 220px !important;
+  border: none;
+}
+
+.canvas:hover {
+  background: var(--canvas);
+  color: var(--white);
+}
+
+.canvas:hover .canvas_i {
+  color: var(--white) !important;
+}
+
+/* Thumbnail */
+.thumb1,
+.thumb2,
+.thumb3 {
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+
+.thumb1 {
+  background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/women-fashion-free-img.jpg') no-repeat center/cover;
+}
+
+.thumb2 {
+  background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/men-fashion-free-img.jpg') no-repeat center/cover;
+}
+
+.thumb3 {
+  background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/footwear-free-img.jpg') no-repeat center/cover;
+}
+
+
+/* Section3 */
+.show {
+  position: absolute;
+  top: 10px;
+}
+
+.btn_card {
+  opacity: 0;
+}
+
+.card:hover .btn_card {
+  opacity: 100;
+}
+
+.card {
+  border: none !important;
+}
+
+.colors {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Second Section */
+.second_section {
+  background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg') no-repeat fixed center/cover !important;
+  height: 100vh;
+  place-items: center;
+
+}
